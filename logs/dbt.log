@@ -1,0 +1,156 @@
+==================== 2026-02-13T22:14:05.245854Z | 019c5911-80b1-7190-ba52-9b33ff6ed9f7 ====================
+22:14:05.249239 [info ]: Installing dbt project and profile setup
+22:14:05.268532 [info ]: Info Created .vscode/extensions.json with dbt extension recommendation
+22:14:05.269352 [info ]: Success Project created successfully!
+22:14:05.269374 [info ]: Info Project name: jaffle_shop
+22:14:05.269381 [info ]: Info Project directory: jaffle_shop
+22:14:05.269549 [info ]: Info Setting up your profile...
+22:14:05.270212 [info ]: Loading ~/.dbt/profiles.yml
+22:14:05.270682 [info ]: Info Creating new profile...
+22:14:31.151937 [info ]: Found dbt_cloud.yml configuration
+22:14:31.152030 [info ]: Found active project: dbt_databricks (ID: 70471823549208)
+==================== 2026-02-13T22:47:17.729130Z | 019c592f-e7d3-71d0-bf95-4bfa28e72907 ====================
+22:47:17.732456 [info ]: Installing dbt project and profile setup
+22:47:17.739387 [info ]: Info Created .vscode/extensions.json with dbt extension recommendation
+22:47:17.740687 [info ]: Success Project created successfully!
+22:47:17.740728 [info ]: Info Project name: jaffle_shop
+22:47:17.740753 [info ]: Info Project directory: jaffle_shop
+22:47:17.740831 [info ]: Info Setting up your profile...
+22:47:17.746061 [info ]: Loading ~/.dbt/profiles.yml
+22:47:17.750255 [info ]: Info Creating new profile...
+22:47:28.684264 [info ]: No dbt_cloud.yml found - proceeding without cloud pre-population
+==================== 2026-02-13T22:49:03.991882Z | 019c5931-86f7-7e70-a22b-d724c60eb49e ====================
+22:49:04.758338 [info ]: 
+==================== Execution Summary =====================
+Finished 'system' successfully [766ms]
+[0m17:16:30.440297 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b56ae40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e094a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e0945f0>]}
+
+
+============================== 17:16:30.442591 | 248f6906-d77c-4d19-9fcd-5e91da24f6ad ==============================
+[0m17:16:30.442591 [info ] [MainThread]: Running with dbt=1.11.2
+[0m17:16:30.442833 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'version_check': 'True', 'write_json': 'True', 'log_path': 'logs', 'empty': 'None', 'invocation_command': 'dbt init', 'no_print': 'None', 'debug': 'False', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'partial_parse': 'True', 'use_colors': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'fail_fast': 'False', 'log_cache_events': 'False', 'warn_error': 'None', 'introspect': 'True', 'quiet': 'False', 'profiles_dir': '/Users/david.flores/.dbt', 'cache_selected_only': 'False', 'log_format': 'default', 'send_anonymous_usage_stats': 'True', 'target_path': 'None'}
+[0m17:16:48.745906 [debug] [MainThread]: Starter project path: /Users/david.flores/Documents/repos/dbt_databricks/dbt_dbx_vault_demo/.venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m17:16:48.756484 [info ] [MainThread]: 
+Your new dbt project "dbt_sales_vault_dbx" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:16:48.757438 [info ] [MainThread]: Setting up your profile.
+[0m17:17:01.237311 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 30.822445, "process_in_blocks": "0", "process_kernel_time": 0.106409, "process_mem_max_rss": "110149632", "process_out_blocks": "0", "process_user_time": 0.523692}
+[0m17:17:01.237907 [debug] [MainThread]: Command `dbt init` succeeded at 17:17:01.237799 after 30.82 seconds
+[0m17:17:01.238224 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10db79550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10db2af30>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10e10fe00>]}
+[0m17:17:01.238509 [debug] [MainThread]: Flushing usage events
+[0m17:17:01.441608 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:24:21.709140 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b0c8bf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ba84a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ba846e0>]}
+
+
+============================== 17:24:21.711519 | 6e19a839-3969-4e1c-8f5c-61dc1ff6dfd7 ==============================
+[0m17:24:21.711519 [info ] [MainThread]: Running with dbt=1.11.2
+[0m17:24:21.711783 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt debug', 'warn_error': 'None', 'static_parser': 'True', 'profiles_dir': '/Users/david.flores/.dbt', 'send_anonymous_usage_stats': 'True', 'cache_selected_only': 'False', 'quiet': 'False', 'target_path': 'None', 'empty': 'None', 'introspect': 'True', 'write_json': 'True', 'use_colors': 'True', 'log_format': 'default', 'debug': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'version_check': 'True', 'use_experimental_parser': 'False', 'log_cache_events': 'False', 'partial_parse': 'True', 'log_path': 'logs', 'no_print': 'None', 'indirect_selection': 'eager', 'fail_fast': 'False'}
+[0m17:24:21.720415 [info ] [MainThread]: dbt version: 1.11.2
+[0m17:24:21.720611 [info ] [MainThread]: python version: 3.12.12
+[0m17:24:21.720726 [info ] [MainThread]: python path: /Users/david.flores/Documents/repos/dbt_databricks/dbt_dbx_vault_demo/.venv/bin/python
+[0m17:24:21.720830 [info ] [MainThread]: os info: macOS-26.2-arm64-arm-64bit
+[0m17:24:22.066062 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m17:24:22.066341 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m17:24:22.066468 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m17:24:22.952303 [info ] [MainThread]: Using profiles dir at /Users/david.flores/.dbt
+[0m17:24:22.952528 [info ] [MainThread]: Using profiles.yml file at /Users/david.flores/.dbt/profiles.yml
+[0m17:24:22.952658 [info ] [MainThread]: Using dbt_project.yml file at /Users/david.flores/Documents/repos/dbt_databricks/dbt_dbx_vault_demo/dbt_project.yml
+[0m17:24:22.952803 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m17:24:22.955225 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 1.2730541, "process_in_blocks": "0", "process_kernel_time": 1.796459, "process_mem_max_rss": "231784448", "process_out_blocks": "0", "process_user_time": 1.848836}
+[0m17:24:22.955484 [debug] [MainThread]: Command `dbt debug` failed at 17:24:22.955446 after 1.27 seconds
+[0m17:24:22.955619 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ba846e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x128d49a90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1280bd2e0>]}
+[0m17:24:22.955761 [debug] [MainThread]: Flushing usage events
+[0m17:24:23.294724 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:27:41.765125 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ab0e900>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a40c560>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b1d46b0>]}
+
+
+============================== 17:27:41.767289 | 106155be-3e60-4129-ba95-e9977ef1119a ==============================
+[0m17:27:41.767289 [info ] [MainThread]: Running with dbt=1.11.2
+[0m17:27:41.767539 [debug] [MainThread]: running dbt with arguments {'fail_fast': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'partial_parse': 'True', 'printer_width': '80', 'send_anonymous_usage_stats': 'True', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'debug': 'False', 'log_path': 'logs', 'write_json': 'True', 'target_path': 'None', 'empty': 'None', 'profiles_dir': '/Users/david.flores/.dbt', 'indirect_selection': 'eager', 'warn_error': 'None', 'version_check': 'True', 'log_cache_events': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'introspect': 'True', 'use_experimental_parser': 'False'}
+[0m17:27:41.774190 [info ] [MainThread]: dbt version: 1.11.2
+[0m17:27:41.774365 [info ] [MainThread]: python version: 3.12.12
+[0m17:27:41.774519 [info ] [MainThread]: python path: /Users/david.flores/Documents/repos/dbt_databricks/dbt_dbx_vault_demo/.venv/bin/python
+[0m17:27:41.774642 [info ] [MainThread]: os info: macOS-26.2-arm64-arm-64bit
+[0m17:27:42.098863 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m17:27:42.099140 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m17:27:42.099326 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m17:27:42.459152 [info ] [MainThread]: Using profiles dir at /Users/david.flores/.dbt
+[0m17:27:42.459369 [info ] [MainThread]: Using profiles.yml file at /Users/david.flores/.dbt/profiles.yml
+[0m17:27:42.459502 [info ] [MainThread]: Using dbt_project.yml file at /Users/david.flores/Documents/repos/dbt_databricks/dbt_dbx_vault_demo/dbt_project.yml
+[0m17:27:42.459640 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m17:27:42.461444 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.7210135, "process_in_blocks": "0", "process_kernel_time": 0.935544, "process_mem_max_rss": "231817216", "process_out_blocks": "0", "process_user_time": 2.769984}
+[0m17:27:42.461673 [debug] [MainThread]: Command `dbt debug` failed at 17:27:42.461641 after 0.72 seconds
+[0m17:27:42.461801 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12860e570>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d72f290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x128893350>]}
+[0m17:27:42.461947 [debug] [MainThread]: Flushing usage events
+[0m17:27:42.729409 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:28:15.591299 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a513bf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b308950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b308620>]}
+
+
+============================== 17:28:15.592932 | 8d823073-31a7-4186-a158-72bb50f1a54f ==============================
+[0m17:28:15.592932 [info ] [MainThread]: Running with dbt=1.11.2
+[0m17:28:15.593185 [debug] [MainThread]: running dbt with arguments {'use_colors': 'True', 'log_cache_events': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug --config-dir', 'use_experimental_parser': 'False', 'target_path': 'None', 'static_parser': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/david.flores/.dbt', 'printer_width': '80', 'write_json': 'True', 'warn_error': 'None', 'quiet': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'logs', 'introspect': 'True', 'indirect_selection': 'eager'}
+[0m17:28:15.596866 [info ] [MainThread]: To view your profiles.yml file, run:
+
+open /Users/david.flores/.dbt
+[0m17:28:15.597811 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": true, "command_wall_clock_time": 0.030363541, "process_in_blocks": "0", "process_kernel_time": 0.070797, "process_mem_max_rss": "109985792", "process_out_blocks": "0", "process_user_time": 0.479569}
+[0m17:28:15.597990 [debug] [MainThread]: Command `dbt debug` succeeded at 17:28:15.597955 after 0.03 seconds
+[0m17:28:15.598112 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10a513bf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b308a70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b309d00>]}
+[0m17:28:15.598237 [debug] [MainThread]: Flushing usage events
+[0m17:28:15.873310 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:31:02.272056 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d8c2870>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10daa48f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10daa45c0>]}
+
+
+============================== 17:31:02.273768 | 38641bdc-34dc-4ffc-9055-303d85a38c59 ==============================
+[0m17:31:02.273768 [info ] [MainThread]: Running with dbt=1.11.2
+[0m17:31:02.274018 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'version_check': 'True', 'debug': 'False', 'static_parser': 'True', 'warn_error': 'None', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'use_colors': 'True', 'fail_fast': 'False', 'profiles_dir': '/Users/david.flores/.dbt', 'log_format': 'default', 'partial_parse': 'True', 'introspect': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'log_cache_events': 'False', 'write_json': 'True', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'cache_selected_only': 'False', 'printer_width': '80', 'quiet': 'False'}
+[0m17:31:02.277908 [info ] [MainThread]: dbt version: 1.11.2
+[0m17:31:02.278054 [info ] [MainThread]: python version: 3.12.12
+[0m17:31:02.278169 [info ] [MainThread]: python path: /Users/david.flores/Documents/repos/dbt_databricks/dbt_dbx_vault_demo/.venv/bin/python
+[0m17:31:02.278277 [info ] [MainThread]: os info: macOS-26.2-arm64-arm-64bit
+[0m17:31:02.577191 [debug] [MainThread]: Spark adapter: Setting pyhive.hive logging to ERROR
+[0m17:31:02.577410 [debug] [MainThread]: Spark adapter: Setting thrift.transport logging to ERROR
+[0m17:31:02.577524 [debug] [MainThread]: Spark adapter: Setting thrift.protocol logging to ERROR
+[0m17:31:02.946057 [info ] [MainThread]: Using profiles dir at /Users/david.flores/.dbt
+[0m17:31:02.946294 [info ] [MainThread]: Using profiles.yml file at /Users/david.flores/.dbt/profiles.yml
+[0m17:31:02.946434 [info ] [MainThread]: Using dbt_project.yml file at /Users/david.flores/Documents/repos/dbt_databricks/dbt_dbx_vault_demo/dbt_project.yml
+[0m17:31:02.946572 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m17:31:02.948374 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_success": false, "command_wall_clock_time": 0.69991857, "process_in_blocks": "0", "process_kernel_time": 2.027995, "process_mem_max_rss": "232095744", "process_out_blocks": "0", "process_user_time": 1.58138}
+[0m17:31:02.948623 [debug] [MainThread]: Command `dbt debug` failed at 17:31:02.948583 after 0.70 seconds
+[0m17:31:02.948756 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d5e62a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12b1af620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x12b169cd0>]}
+[0m17:31:02.948892 [debug] [MainThread]: Flushing usage events
+[0m17:31:03.243685 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m17:31:17.138191 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b783f20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10be149e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10be146b0>]}
+
+
+============================== 17:31:17.139867 | 66fbd894-b885-4132-89e6-3fb766e5fc3d ==============================
+[0m17:31:17.139867 [info ] [MainThread]: Running with dbt=1.11.2
+[0m17:31:17.140120 [debug] [MainThread]: running dbt with arguments {'profiles_dir': '/Users/david.flores/.dbt', 'invocation_command': 'dbt deps', 'send_anonymous_usage_stats': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'empty': 'None', 'debug': 'False', 'use_colors': 'True', 'target_path': 'None', 'log_format': 'default', 'printer_width': '80', 'no_print': 'None', 'version_check': 'True', 'quiet': 'False', 'introspect': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'warn_error': 'None', 'cache_selected_only': 'False', 'write_json': 'True', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'static_parser': 'True', 'fail_fast': 'False', 'log_path': 'logs'}
+[0m17:31:17.140444 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/david.flores/Documents/repos/dbt_databricks/dbt_dbx_vault_demo/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:31:17.141349 [debug] [MainThread]: Resource report: {"command_name": "deps", "command_success": false, "command_wall_clock_time": 0.026995918, "process_in_blocks": "0", "process_kernel_time": 0.073593, "process_mem_max_rss": "109133824", "process_out_blocks": "0", "process_user_time": 0.481718}
+[0m17:31:17.141539 [debug] [MainThread]: Command `dbt deps` failed at 17:31:17.141504 after 0.03 seconds
+[0m17:31:17.141663 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bcc4470>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bcc4ef0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10be16c30>]}
+[0m17:31:17.141874 [debug] [MainThread]: Flushing usage events
+[0m17:31:17.337841 [debug] [MainThread]: An error was encountered while trying to flush usage events
